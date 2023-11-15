@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import { ITask } from "../interfaces/Interfaces";
 
 // Defining an interface for the props
@@ -7,7 +7,7 @@ interface Props {
   removeTask(taskToRemove: string): void;
 }
 
-const TodoList = ({ task, removeTask }: Props) => {
+const TodoList: FC<Props> = ({ task, removeTask }) => {
   return (
     <div className="flex w-8/12 mt-1 h-8 bg-slate-300">
       <div className="basis-11/12 flex place-content-around ">

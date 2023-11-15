@@ -45,7 +45,7 @@ const App: FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-tl from-blue-400 to-cyan-500 flex justify-center ">
       <div className="h-96 mx-auto mt-40 sm:w-2/12  md:w-4/12 lg:w-2/4 bg-white rounded-lg flex flex-col">
-        <div className="h-24 p-4 bg-red-900 rounded-t-lg flex place-content-around">
+        <div className="h-24 p-4 bg-emerald-800 rounded-t-lg flex place-content-around">
           <div className=" flex flex-col p-2 justify-center items-center">
             <input
               type="text"
@@ -68,7 +68,7 @@ const App: FC = () => {
             <button
               type="submit"
               onClick={addTask}
-              className="h-10 bg-yellow-600 text-neutral-200 px-5 rounded-sm"
+              className="h-10 bg-yellow-300 text-neutral-800 font-bold px-5 rounded-sm"
             >
               Add Task
             </button>
